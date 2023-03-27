@@ -1,0 +1,163 @@
+.navigation-section {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    border-bottom: 0.7px solid black;
+    box-shadow: 0 0 30px #ccc;
+
+
+    background: rgba(255, 255, 255, 0.36);
+    z-index: 10;
+}
+
+.nav-max-width {
+    width: 100%;
+    height: 10vh;
+    
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-logo-con {
+    font-size: clamp(1.5rem, 5vw, 1.9rem);
+    letter-spacing: 1px;
+
+
+}
+
+.nav-link-con {
+    margin: 0 0 0 auto;
+    display: flex;
+    list-style: none;
+
+}
+
+
+.nav-links {
+    margin-right: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 7px;
+}
+
+#router-links {
+    text-decoration: none;
+    color: blacK;
+
+}
+
+.nav-links:hover {
+    margin-right: 35px;
+    cursor: pointer;
+
+}
+
+
+#logo-span {
+    font-weight: bold;
+
+}
+
+* {
+    border: 1px solid red;
+}
+
+.nav-logo {
+    transition: all 0.7s ease;
+
+}
+
+.nav-logo:hover {
+    font-size: 1.7rem;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+}
+
+.responsive-menu {
+    position: absolute;
+    right: 10%;
+    font-size: 1.5rem;
+}
+
+.modal-menu {
+    border-bottom: 1px solid black;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.7);
+
+
+}
+
+.burger-menu {
+    display: flex;
+    width: auto;
+    list-style: none;
+}
+
+.b-nav-links {
+    padding: 0px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.b-nav-links:hover {
+    color: red;
+}
+
+.diss {
+    display: none;
+}
+
+#nav-contact {
+    transition: all 0.7s ease;
+    border-radius: 5px;
+
+}
+
+#nav-services {
+    background: rgb(0, 60, 255);
+
+    color: white;
+    border-radius: 5px;
+}
+
+#nav-contact:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    position: relative;
+    padding-top: 1px;
+
+}
+
+@media (max-width: 600px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-logo-con {
+        left: 10%;
+
+    }
+}
+
+@media (min-width: 600px) {
+    .responsive-menu {
+        display: none;
+    }
+
+}
