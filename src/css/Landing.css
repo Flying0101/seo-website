@@ -1,0 +1,139 @@
+.landing-section {
+    width: 100%;
+    min-height: 99vh;
+}
+
+
+.custom-shape-divider-bottom-1680041389 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1680041389 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 46px;
+}
+
+.custom-shape-divider-bottom-1680041389 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.intro-section {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    padding-top: 23vh;
+    color: white;
+    display: flex;
+
+}
+
+.landing-image {
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    filter: brightness(20%);
+    width: 100%;
+    height: 100%;
+}
+
+
+.intro-h1 {
+    font-size: clamp(2.8rem, 10vw, 4rem);
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+
+}
+
+.intro-p {
+    max-width: 350px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    color: rgb(231, 231, 231);
+
+}
+
+.intro-div {
+    width: fit-content;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.intro-mini-content {
+    margin-right: 40px;
+}
+
+.intro-mini-icon {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.intro-mini-p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: rgb(231, 231, 231);
+
+}
+
+
+.intro-btn {
+    padding: 0.7em 1em;
+    margin-right: 35px;
+    min-width: 100px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    background: linear-gradient(130deg, rgba(103, 214, 253, 0.4) 0%, var(--main-color, 0.9) 58%);
+}
+
+.intro-btn-c {
+    padding: 0.7em 1em;
+    min-width: 100px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px solid var(--main-color, 0.6);
+    font-weight: bold;
+
+}
+
+.intro-animation {
+    position: relative;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: -90px;
+    height: 590px;
+    width: 590px;
+
+}
+
+.intro-first-div {
+    height: fit-content;
+}
+
+
+
+@media (max-width: 945px) {
+
+
+    .intro-animation {
+        display: none;
+    }
+
+    .intro-first-div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

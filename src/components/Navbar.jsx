@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
 import { FaBars } from "react-icons/fa";
 import { FaAlignRight } from "react-icons/fa";
- 
+
 
 
 
@@ -19,14 +19,14 @@ function Navbar() {
         setToggle(!toggle);
 
     }
- 
+
 
     return (
         <nav className="navigation-section">
             <div className="nav-max-width">
                 <div className="nav-logo-con">
                     <Link to="/" id="router-links">
-                        <p className="nav-logo"><span id="logo-span">SM</span>-Consulting</p>
+                        <p className="nav-logo"><span id="logo-span">S</span>.M</p>
                     </Link>
                 </div>
 
@@ -62,7 +62,7 @@ function Navbar() {
                     </ul>
 
                 </div>
-                </div>
+            </div>
         </nav >
     );
 }
