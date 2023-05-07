@@ -1,15 +1,48 @@
-*{ 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    
+
     --main-color: #021daf;
+    --main-white: white;
 }
 
-html{ 
+html {
     scroll-behavior: smooth;
 }
+
+.global-button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    letter-spacing: 2px;
+    transition: all 0.7s ease;
+}
+
+
+.global-button:hover {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    font-weight: bold;
+    color: var(--main-color);
+    background-color: var(--main-white);
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
 
 
 .green-text {

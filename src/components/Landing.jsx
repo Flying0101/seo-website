@@ -20,8 +20,8 @@ function Landing() {
             </video>
             <section className="intro-section">
                 <div className="intro-first-div">
-                    <h1 className="intro-h1"><span className="green-text">Residential</span> <br /> Proxy</h1>
-                    <p className="intro-p">We have the goal of updating your proxy its better and faster.</p>
+                    <h1 className="intro-h1"><span className="green-text">SEO/Webb</span> <br /> Consult</h1>
+                    <p className="intro-p">Reach your goals no matter if its SEO or webb development.</p>
                     <div className="intro-div">
                         <div className="intro-mini-content">
                             <FaSearchengin className="intro-mini-icon" />
@@ -49,10 +49,11 @@ function Landing() {
 
             <div class="custom-shape-divider-bottom-1680041389">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+                    <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" className="shape-fill"></path>
                 </svg>
             </div>
         </section >
+
     );
 }
 

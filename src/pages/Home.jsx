@@ -4,8 +4,8 @@ import React, { useEffect } from 'react';
 
 import Navbar from '../components/Navbar';
 import Landing from '../components/Landing';
-
-
+import ShortServices from '../components/ShortServices';
+import Services from '../components/Services';
 
 function Home() {
 
@@ -17,6 +17,8 @@ function Home() {
         <div className="Home">
             <Navbar />
             <Landing />
+            <ShortServices />
+            <Services />
         </div>
     );
 }

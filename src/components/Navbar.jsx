@@ -33,13 +33,13 @@ function Navbar() {
 
                 <ul className="nav-link-con">
                     <Link to="/contact" id="router-links">
-                        <li className="nav-links" id="nav-contact">Om oss</li>
+                        <li className="nav-links" id="nav-contact">About</li>
                     </Link>
                     <Link to="/packages" id="router-links">
-                        <li className="nav-links" id="nav-contact">Tjänster</li>
+                        <li className="nav-links" id="nav-contact">Services</li>
                     </Link>
                     <Link to="/contact" id="router-links">
-                        <li className="nav-links" id="nav-contact">Kontakt</li>
+                        <li className="nav-links" id="nav-contact">Contact</li>
                     </Link>
                     <Link to="/contact" id="router-links">
                         <li className="nav-links" id="nav-contact">Blog</li>
@@ -52,13 +52,13 @@ function Navbar() {
                 <div className={toggle ? "modal-menu" : "diss"}>
                     <ul className="burger-menu">
                         <Link to="/packages" id="router-links">
-                            <li className="b-nav-links">Om</li>
+                            <li className="b-nav-links">About</li>
                         </Link>
                         <Link to="/contact" id="router-links">
-                            <li className="b-nav-links">Tjänster</li>
+                            <li className="b-nav-links">Services</li>
                         </Link>
 
-                        <li className="b-nav-links">Kontakt</li>
+                        <li className="b-nav-links">Contact</li>
                     </ul>
 
                 </div>
