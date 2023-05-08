@@ -1,13 +1,11 @@
 import React from 'react';
 import '../css/Services.css'
-import { FaSearchDollar } from "react-icons/fa";
-import { FaLaptopCode } from "react-icons/fa";
-
-
+import Lottie from "lottie-react";
+import SeoAnimation from '../lotties/seo-service-animation.json'
+import WebDevelopment from '../lotties/web-development.json'
 
 
 function Services() {
-
 
     return (
         <section className="service-section">
@@ -16,7 +14,7 @@ function Services() {
 
             <div className="s-container">
                 <div className="s-div">
-                    <FaSearchDollar className="service-icon" />
+                    <Lottie animationData={SeoAnimation} loop={true} className="service-lottie" />
                     <h2 className="service-type">SEO optimization</h2>
                     <p className="service-inf">
 
@@ -27,7 +25,8 @@ function Services() {
                 </div>
 
                 <div className="s-div">
-                    <FaLaptopCode className="service-icon" />
+                    <Lottie animationData={WebDevelopment} loop={true} className="service-lottie" />
+
                     <h2 className="service-type">Web development</h2>
 
                     <p className="service-inf">

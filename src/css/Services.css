@@ -52,10 +52,15 @@
     text-align: center;
     font-size: 2.5rem;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     color: var(--main-color);
 }
 
+
+.service-lottie {
+    max-width: 250px;
+    margin: auto auto;
+}
 
 @media (max-width: 905px) {
 
