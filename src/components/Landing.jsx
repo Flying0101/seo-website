@@ -1,17 +1,13 @@
 import React from 'react';
-
 import '../css/Landing.css';
 import Lottie from "lottie-react";
 import seoHomeVideo from '../videos/seo-landing-background.mp4'
-
 import { FaSearchengin } from 'react-icons/fa';
 import { FaCopy } from 'react-icons/fa';
 import { FaDev } from 'react-icons/fa';
-
 import seolaptop from '../lotties/seo-laptop-animation.json';
 
 function Landing() {
-
 
     return (
         <section className="landing-section">

@@ -5,36 +5,24 @@ import '../css/Navbar.css';
 import { FaBars } from "react-icons/fa";
 import { FaAlignRight } from "react-icons/fa";
 
-
-
-
-
-
 function Navbar() {
     const [scrollPosition, setScrollPosition] = useState(0);
     const [toggle, setToggle] = useState(false);
 
     function showMenu() {
-
         setToggle(!toggle);
-
     }
-
-
 
     useEffect(() => {
         const handleScroll = () => {
             const position = window.pageYOffset;
             setScrollPosition(position);
         };
-
         window.addEventListener('scroll', handleScroll);
-
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
 
     return (
         <nav className={scrollPosition > 0 ? 'navigation-section-solid' : 'navigation-section-transparent'} id="navigation">

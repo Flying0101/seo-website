@@ -45,6 +45,38 @@ html {
 
 
 
+.blue-button {
+    margin: 20px 0;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    letter-spacing: 2px;
+    transition: all 0.7s ease;
+}
+
+
+.blue-button:hover {
+    margin: 20px 0;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    font-weight: bold;
+    color: var(--main-color);
+    background-color: var(--main-white);
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+
+
 .green-text {
     color: var(--main-color);
+}
+
+.black-wrap{
+    color: black;
 }
