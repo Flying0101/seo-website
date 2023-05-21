@@ -5,6 +5,8 @@ import ShortServices from '../components/ShortServices';
 import Services from '../components/Services';
 import About from '../components/About';
 import CustomPlan from '../components/CustomPlan';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 function Home() {
 
@@ -20,6 +22,8 @@ function Home() {
             <CustomPlan />
             <Services />
             <About />
+            <Contact />
+            <Footer />
         </div>
     );
 }

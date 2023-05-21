@@ -19,7 +19,7 @@
     position: relative;
     top: -3em;
     background-color: white;
-    font-weight: bold;  
+    font-weight: bold;
     transition: all 0.7s ease;
 }
 
@@ -27,11 +27,11 @@
     border-radius: 100px;
 }
 
-.intro-icons{ 
+.intro-icons {
     font-size: 2rem;
     text-align: center;
     width: 100%;
     margin-bottom: 5px;
-    color: var(--main-color); 
+    color: var(--main-color);
 
 }

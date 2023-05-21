@@ -19,11 +19,15 @@
     padding: 15px 40px;
     border-radius: 100px;
     color: white;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
 
 .custom-p {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin: auto;
     line-height: 2.5rem;
