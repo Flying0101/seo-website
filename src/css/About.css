@@ -1,14 +1,16 @@
 .about-section {
     padding: 8em 0;
 
-    background-image: url('../images/devider-image.png');
+    background-image: url('../images/custom-plan-wave.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+     
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color: darkblue;
 }
 
 .about-div {
@@ -22,9 +24,11 @@
 .about-h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: white;
 }
 
 .about-p {
+    color: rgb(232, 232, 232);
     line-height: 1.5rem;
     word-spacing: 1px;
     font-weight: bold;
@@ -46,26 +50,6 @@
 .custom-shape-divider-top-1683665429 .shape-fill {
     fill: #FFFFFF;
 }
-
-@media (max-width: 730px) {
-
-    .about-section {
-        display: grid;
-        min-height: 50vh;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        column-gap: 10px;
-    }
-
-    .about-div {
-        max-width: 550px;
-        margin: auto auto;
-
-        padding: 10px;
-    }
-
-}
-
 
 .custom-shape-divider-bottom-1683666615 {
     position: absolute;

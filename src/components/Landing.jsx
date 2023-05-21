@@ -16,7 +16,7 @@ function Landing() {
             </video>
             <section className="intro-section">
                 <div className="intro-first-div">
-                    <h1 className="intro-h1"><span className="green-text">SEO/Webb</span> <br /> Consult</h1>
+                    <h1 className="intro-h1"><span className="green-text">SEO/Webb</span> <br /> Solutions</h1>
                     <p className="intro-p">Reach your goals no matter if its SEO or webb development.</p>
                     <div className="intro-div">
                         <div className="intro-mini-content">
