@@ -14,7 +14,7 @@ function About() {
 
             <div className="about-div">
                 <h1 className="about-h1">Nice to meet you</h1>
-                <p className="about-p"> ehash esaehase ashe ehashe haseh asd ds ad s asd dsa asd d asd as d asd as d asd as d sd se ashe ehashe haseh asd ds ad s asd dsa asd d asd as d asd as d asd as d se ashe ehashe haseh asd ds ad s asd dsa asd d asd as d asd as d asd as d</p>
+                <p className="about-p">  Our Journey started with me, a guy who likes to create and make things simpler.. after working on different projects thru my journey i know that web development can be tricky and expensive.. I wanted to make it simple and cost effective and I believe that when your goals become our goals, thats the moment we reach real success, your success becomes our driving force. Where we believe that your success is our ultimate measure of achievement. We are a dedicated web and SEO agency with a passion for making web development not so complicated, while putting your business goals at the forefront of everything we do, always.</p>
             </div>
 
             <div class="custom-shape-divider-bottom-1683666615">

@@ -16,21 +16,22 @@ function Landing() {
             </video>
             <section className="intro-section">
                 <div className="intro-first-div">
-                    <h1 className="intro-h1"><span className="green-text">SEO/Webb</span> <br /> Solutions</h1>
-                    <p className="intro-p">Reach your goals no matter if its SEO or webb development.</p>
+                    <h1 className="intro-h1"><span className="green-text">SEO/Web</span> <br /> Solutions</h1>
+                    <p className="intro-p">We go beyond simply building websites, we create tailored digital solutions that enhances brand credibility</p>
                     <div className="intro-div">
                         <div className="intro-mini-content">
                             <FaSearchengin className="intro-mini-icon" />
                             <p className="intro-mini-p">seo<br />optimization</p>
                         </div>
                         <div className="intro-mini-content">
-                            <FaCopy className="intro-mini-icon" />
-                            <p className="intro-mini-p">seo <br /> keywords</p>
+                            <FaDev className="intro-mini-icon" />
+                            <p className="intro-mini-p">web<br /> development</p>
                         </div>
                         <div className="intro-mini-content">
-                            <FaDev className="intro-mini-icon" />
-                            <p className="intro-mini-p">Web<br /> development</p>
+                            <FaCopy className="intro-mini-icon" />
+                            <p className="intro-mini-p">website <br /> copywriting</p>
                         </div>
+                   
                     </div>
 
                     <div className="intro-btn-div">
