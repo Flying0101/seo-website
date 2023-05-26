@@ -38,6 +38,8 @@
 
 .f-l-lis {
     color: rgba(255, 255, 255, 0.842);
+    letter-spacing: 0.8px;
+    line-height: 1.2rem;
 }
 
 .f-bottom-container {

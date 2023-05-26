@@ -18,19 +18,19 @@ function Services() {
                 <div className="f-l-div">
                     <h3 className="f-l-header">About us</h3>
                     <ul className="f-l-ul">
-                        <li className="f-l-lis">Established since 2022. <br /> <br />Our mission is simply to give you the best possible service.</li>
+                        <li className="f-l-lis">Established since 2022. <br /> <br />"We Strive to Deliver Exceptional Service."</li>
                     </ul>
                 </div>
                 <div className="f-l-div">
                     <h3 className="f-l-header">Contact</h3>
                     <ul className="f-l-ul">
-                        <li className="f-l-lis">Respond within 24 hours, if we do not respond it must be holiday.</li>
+                        <li className="f-l-lis"> Response Guaranteed: <br /><br /> We'll Get Back to You Within 24 Hours (Excluding Holidays).</li>
                     </ul>
                 </div>
                 <div className="f-l-div">
                     <h3 className="f-l-header">Project Offers</h3>
                     <ul className="f-l-ul">
-                        <li className="f-l-lis">Our offers are always free of charge, don't hesitate just send us an Hello!</li>
+                        <li className="f-l-lis">Explore Our Exciting On The House Offers – Just Say Hello!</li>
                     </ul>
                 </div>
 
