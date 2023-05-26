@@ -1,6 +1,7 @@
 .landing-section {
     width: 100%;
     min-height: 99vh;
+
 }
 
 
@@ -18,10 +19,11 @@
     display: block;
     width: calc(100% + 1.3px);
     height: 46px;
+
 }
 
 .custom-shape-divider-bottom-1680041389 .shape-fill {
-    fill: #FFFFFF;
+    fill: rgba(9, 0, 27, 255);
 }
 
 
