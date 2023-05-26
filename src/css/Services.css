@@ -14,10 +14,11 @@
 
 }
 
+
 .s-div {
     background-color: #001845;
     max-width: 410px;
-    padding: 30px;
+    padding: 10px 20px;
     border-radius: 20px;
     transition: all 0.7s ease;
     margin-bottom: 30px;
@@ -69,6 +70,6 @@
         width: 100%;
         transition: all 0.7s ease;
         margin-bottom: 30px;
-        padding: 20px 5px;
+        padding: 10px 20px;
     }
 }
